@@ -1,0 +1,118 @@
+
+.middlebox{
+    margin-top: 20px;
+    margin-left: -80px;
+}
+.customerdetailsdo
+{
+    margin-bottom: 50px;
+    margin-left: 15%;
+}
+.address-inputdo{
+width: 625px;
+display: flex;
+justify-content: left;
+font-size: smaller;
+height: 72px;
+margin-bottom: 1%;
+background-color: whitesmoke;
+border: 1px solid gainsboro;   
+}
+.ch2{
+    margin-left: 28px;
+}
+
+.nameform{
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-labeld{
+    display: flex;
+     justify-content: left;
+     font-size: smaller;
+     margin-bottom: 0.2%;
+ }
+ 
+ .personal-inputdo{
+     display: flex;
+     justify-content: left;
+     width: 70%;
+     height: 35px;
+     margin-bottom: 0.5%;
+     background-color: whitesmoke;
+     border: 1px solid gainsboro;
+ 
+ }
+ 
+
+.fielddata{
+    width: 37.5%;
+}
+
+.continueClickButton{
+    color: white;
+    margin-left: 83%;
+    margin-bottom: 10px;
+    height: 5vh;
+    width:130px;
+    background-color:#3371B5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.state-fielddo{
+    font-size: smaller;
+    margin-left: 11.2%;
+    float: left;
+    margin-top: 0.4%;
+}
+
+
+.state-inputdo{
+    margin-left: 11%;
+    justify-content: left;
+    width: 252px;
+    height: 36px;
+    margin-top: 0.7%;
+    /* margin-right: 58%; */
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+}
+
+.city-fielddo{
+
+    
+    float: left;    
+    
+   
+}
+.spando
+ {
+     justify-content: left;
+     text-align: left;
+     font-size: smaller;
+     
+     /* margin-left:-180px; */
+}
+
+
+
+
+.city-inputdo {
+    justify-content: left;
+    width: 258px;
+    margin-top: 2%;
+    height: 36px;
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    
+}
+.add-button{
+    margin-left: 80%;
+    margin-top: -6px;
+}
+
+// .add-address-buttond{
+//     cursor: pointer;
+// }

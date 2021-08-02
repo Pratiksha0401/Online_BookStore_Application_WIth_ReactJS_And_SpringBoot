@@ -1,0 +1,149 @@
+.order-topconatinerO{
+    margin-top: 0px;
+height: 8vh;
+display: flex;
+align-items: flex-start;
+flex-wrap: wrap;
+width: 70%;
+
+margin-left:  12%;
+//margin-right: 25px;
+}
+.footer-setupd{
+    
+        margin-top: 32.9%;
+    
+}
+.orderUrlO{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hometitleO{
+    opacity: 0.5;
+    font-size: large;
+    cursor: pointer;
+}
+
+.ordertitleO{
+    margin-left: 5px;
+    font-weight: 300 bold;
+    font-size: large;
+    cursor: pointer;;
+}
+
+.Card-ContainerO{
+    margin: 10px auto;
+}
+
+tableO{
+    margin-left: 12%;
+    width: 70%;
+}
+
+.card-infoO{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-dataO{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 35px;
+}
+.BookNameO{
+    font-weight: bold;
+}
+
+.AuthorNameO{
+    margin-top: -6px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.priceBoxO{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.PriceNameO{
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+.ActualPriceNameO{
+    margin-top: 4px;
+    margin-left: 15px;
+    text-decoration: line-through;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #9D9D9D;
+opacity: 1;
+}
+
+.inner-boxO{
+    display: flex;
+    flex-direction: row;
+    height: 18vh;
+    padding: 10px 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+td img{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.card-orderO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-detailsO{
+    display: flex;
+    flex-direction: row;
+    margin-top: -48px;
+    margin-left: 300px;
+    font-weight: 700;
+}
+
+.dotO{
+    margin-top: -36px;
+    font-size: -webkit-xxx-large;
+    color: green;
+    margin-left: 3px;
+    
+}
+@media screen and (max-width:1400px) and (min-width:200px) {
+    // .WishlistMain {
+    //     width: 95%;
+
+    // }
+    .dotO {
+        margin-left: -200px;
+    }
+    .card-dataO {
+        margin-left: 200px;
+        padding-top: -400px;
+       margin-bottom: 200px;
+    }
+    .BookNameO {
+        margin-top: -100px;
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: smaller;
+
+    }
+    // .card-infoO {
+    //     padding: 10px 100px;
+    // }
+    
+}

@@ -1,0 +1,483 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:400,700|Material+Icons');
+.maintoolbar {
+    position: fixed;
+    width: 84%;
+    height: fit-content;
+    margin-left: 14%;
+}
+
+.wishlistimg {
+    margin-top: 12px;
+    
+}
+.headerlink{
+    text-decoration: none;
+    color:black ;
+    opacity: 0.5;
+}
+svg.MuiSvgIcon-root.bookIcon {
+    font-size: 2.0rem;
+    margin-top: 9px;
+}
+
+h6.MuiTypography-root.title.MuiTypography-h6.MuiTypography-noWrap {
+    margin-left: 10px;
+    width: 207px;
+}
+
+.logo {
+    width: 5%;
+    margin-top: -3px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -5%;
+  //  margin-right: -50px;
+}
+
+
+.search {
+    position: relative;
+    border-radius: 2px;
+    margin-left: -50px;
+    background-color: white;
+  //  margin-left: -10px;
+    height: 5vh;
+    width: 38%;
+}
+
+.searchIcon {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9D9D9D;
+}
+
+.searchText {
+    width: 100%;
+    margin-top: 3px;
+    opacity: 0.8;
+    margin-left: 41px;
+    text-align: left;
+   margin-right: 200px;
+    
+    
+}
+
+.loginsignup {
+    margin-left: 25%;
+    margin-top: 10px;
+    height: 40px;
+    padding-bottom: 7px;
+    margin-right: -200px;
+    
+    
+}
+.button {
+   margin-left: 150px;
+   background-color: white;
+}
+
+svg.MuiSvgIcon-root.userIcon {
+    margin-left: -19px;
+    font-size: 2.0rem;
+    margin-top: 5px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+
+}
+.buttons {
+    margin-top: 13px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.loginorsignupbutton {
+   // margin-top: 15px;
+    width: 20px;
+ 
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.loginorsignupbutton {
+  //  margin-top: 15px;
+    border: solid 1px rgb(150, 0, 0);
+    color: rgb(150, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 5px;
+   width: 150px;
+   
+}
+
+.loginsignupcard {
+   
+    transform: translate(390%, 6%);
+
+  width: 270px;
+  
+    height: 250;
+   
+   padding-top: 60px;
+    text-align: left;
+    opacity: 1;
+}
+svg.MuiSvgIcon-root.imgorder {
+    opacity: 0.4;
+}
+
+.wishlist {
+    background-color: white;
+    margin-top: 10px;
+ border: none; 
+    cursor: pointer;
+ background-color: none;
+ margin-left: 9px;
+ font-size: 15.5px;
+
+
+}
+.wishlist1 {
+    background-color: white;
+    margin-top: 10px;
+ border: none; 
+    cursor: pointer;
+ background-color: none;
+ 
+ font-size: 15.5px;
+    margin-left: -3px;
+
+}
+
+
+.img {
+ margin-top: 115px;
+ text-align: center;
+}
+.myorders {
+    background-color: white;
+    margin-top: -5px;
+    border: none;
+    opacity: 1;
+margin-left: 5px;
+overflow: hidden;
+cursor: pointer;
+
+}
+.buttondata{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome {
+    text-align: left;
+}
+
+.addtocarticon {
+    opacity: 0.9;
+    width: 3%;
+    font-size: larger;
+    margin-left: 80px;
+    cursor: pointer;
+   
+    
+   
+}
+
+.addtocarticon1 {
+    opacity: 0.9;
+    width: 3%;
+    font-size: larger;
+    margin-left: 15%;
+    cursor: pointer;
+
+}
+.MuiTypography-body {
+    margin-left: 25px;
+ //   padding-right: 20px;
+    width: 107px;
+}
+
+.MuiTypography-body1 {
+    
+        font-size: 1rem;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        width: max-content;
+
+}
+.cartName{
+    margin-left: 20px;
+}
+
+svg.MuiSvgIcon-root.carticon {
+    margin-left: -35px;
+    font-size: 2.0rem;
+    margin-top: 5px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+span.MuiBadge-badge.MuiBadge-anchorOriginTopRightRectangle.MuiBadge-colorSecondary {
+    top: 0;
+    right: 0;
+    transform: scale(1) translate(30%, -1%);
+    transform-origin: 100% 0%;
+    background-color: white;
+    color: rgb(145, 10, 10);
+}
+
+.searchBox {
+    display: none;
+}
+
+.MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-elevation24.MuiPaper-rounded {
+    position: inherit;
+    overflow: hidden;
+}
+
+.MuiDialogContent-root.dialoguecontent {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 700px;
+
+}
+
+.gutterbottomfont{
+    width: 250px;
+    margin-top: 7px;
+    font-size: 0.8rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+}
+
+.loginorsignupbutton{
+  background-color: whitesmoke;
+}
+
+.signuploginbutton{
+    text-decoration: none;
+    color: red;
+}
+
+.HomeButton{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 414px) and (max-height: 823px ) {
+    .maintoolbar {
+        width: 100%;
+        height: fit-content;
+        margin-left: -1%;
+    }
+
+    .logo {
+        margin-left: 5%;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .addtocarticon {
+        font-size: larger;
+        margin-right: 17%;
+        margin-left: 10%;
+    }
+    
+
+    .search {
+        width: 50%;
+        height: 100%;
+    }
+
+    .searchIcon {
+        width: 30px;
+    }
+
+    
+    .searchText {
+        background-color: white;
+        width: 83%;
+        height: 30px;
+        margin-left: 18%;
+    }
+
+    svg.MuiSvgIcon-root.bookIcon {
+        font-size: 1.5rem;
+    }
+
+    h6.MuiTypography-root.title.MuiTypography-h6.MuiTypography-noWrap {
+        font-size: 1.1rem;
+    }
+
+    .searchBox {
+        display: flex;
+        width: 500px;
+        height: 30px;
+        margin-left: -25%;
+    }
+
+    .loginsignup {
+        margin-left: -5%;
+        margin-right: 20px;
+    }
+
+    .loginsignupcard {
+        position: absolute;
+        transform: translate(72%, 4%);
+        width: 200px;
+        height: 165px;
+        z-index: 999;
+    }
+
+    .gutterbottomfont {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (width: 411px) and (height: 731px ) {
+    .logo {
+        margin-left: 35%;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .search {
+        width: 70%;
+        height: 100%;
+    }
+
+    .addtocarticon {
+        margin-left: 10%;
+    }
+
+    .loginsignup {
+        margin-left: -15%;
+    }
+
+    .userIcon {
+        margin-left: 280%;
+      
+    }
+
+    .loginsignupcard {
+        position: absolute;
+        transform: translate(98%, 4%);
+        width: 200px;
+        height: 150px;
+        z-index: 999;
+    }
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1024px ) {
+
+    .logo {
+        margin-left: 7%;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .search {
+        width: 65%;
+    }
+
+    .addtocarticon {
+        width: 3%;
+        font-size: larger;
+        margin-left: 10%;
+    }
+
+    .loginsignupcard {
+        position: absolute;
+        transform: translate(150%, 6%);
+        width: 290px;
+        height: 160px;
+        z-index: 999;
+    }
+}
+
+@media only screen and (width: 1024px) and (height: 1366px ) {
+
+    .logo {
+        margin-left: -13%;
+    }
+
+    .title {
+        display: flex;
+        width: 70%;
+
+    }
+
+    .search {
+        width: 50%;
+    }
+
+    .addtocarticon {
+        width: 3%;
+        font-size: larger;
+        margin-left: 12%;
+    }
+
+    .loginsignupcard {
+        position: absolute;
+        transform: translate(245%, 7%);
+        width: 290px;
+        height: 150px;
+        z-index: 999;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:250px) {
+    
+    .logo {
+        margin-left: -13%;
+    }
+
+    .title {
+        display: flex;
+        width: 70%;
+
+    }
+
+    .search {
+        width: 20%;
+    }
+    .searchText {
+    //     padding-left: 200px;
+    //    margin-right: 400px;
+   width: 50%;
+    }
+    .MuiToolbar-gutters {
+        margin-left: 300px;
+    }
+
+    .addtocarticon {
+        width: 3%;
+        font-size: larger;
+        margin-left: 12%;
+    }
+
+    .loginsignupcard {
+        position: absolute;
+        transform: translate(245%, 7%);
+        width: 290px;
+        height: 150px;
+        z-index: 999;
+    }
+    
+}

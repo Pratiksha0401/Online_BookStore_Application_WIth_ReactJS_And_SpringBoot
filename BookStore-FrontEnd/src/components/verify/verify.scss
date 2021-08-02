@@ -1,0 +1,36 @@
+.verify-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+    width: 100%;
+}
+.verify-form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: #878787;
+    border-radius: 2%;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+}
+
+.verifydata{
+    font-style: oblique;
+    font-weight: bold;
+}
+.verify-button{
+    height: 5vh;
+    margin-top: 3vh;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 2.5px;
+    background-color:  #A03037;
+    font-size: x-large;
+    align-items: center;
+    cursor: pointer;
+    color: whitesmoke;
+}

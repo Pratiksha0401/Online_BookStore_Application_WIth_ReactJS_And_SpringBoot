@@ -1,0 +1,154 @@
+
+.OrderCard-Container{
+    background-color: white;
+    //padding-bottom: 20px;
+    margin: 10px auto;
+}
+
+.SummaryTable{
+    margin-top: 10px;
+    margin-left: 12%;
+    width: 70%;
+}
+.HeadingOrder{
+    // background: #F5F5F5 0% 0% no-repeat padding-box;
+    //  border: 1px solid #E4E4E4;
+    //  border-bottom: 0px gray;
+    // border-radius: 1px;
+    margin-top: 10px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: -2px;
+}
+.HeadingOrderData{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.card-Oinfo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-Odata{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 35px;
+}
+.BookName{
+    font-weight: bold;
+   // width: 500px;
+}
+
+.AuthorName{
+    margin-top: -6px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.priceBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.PriceName{
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+.ActualPriceName{
+    margin-top: 4px;
+    margin-left: 15px;
+    text-decoration: line-through;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #9D9D9D;
+opacity: 1;
+}
+
+.inner-Obox{
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    padding: 10px 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    border-bottom-style: inset;
+    border-bottom-color:rgb(236, 231, 231);
+    opacity: 1;
+    
+}
+td img{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.card-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-details{
+    width:60px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -125px;
+    margin-left: 800px;
+}
+
+.removedata{
+  //  position: absolute;
+    height: 20px;
+    width: 25px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.cartsummaryfooter{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.TotalpriceSummary{
+    display: flex;
+    flex-direction: column;
+}
+
+.totalpricedata{
+    display: flex;
+    //margin-top: 10px;
+    justify-content: center;
+    height: 5vh;
+    width: 120px;
+    background-color: rgb(238, 231, 231);
+}
+
+.totalpricedatap{
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.OrderclickButton{
+    color: white;
+    margin-left: 82%;
+    height: 5vh;
+    width:130px;
+    border-radius: 5px;
+    background-color:#3371B5;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+

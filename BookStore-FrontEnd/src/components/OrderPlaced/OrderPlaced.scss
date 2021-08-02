@@ -1,0 +1,104 @@
+.order-placed{
+  width: 100%;
+margin-top: -17.95%;
+}
+
+.congo-image{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+     
+ }
+ 
+ .order-content{
+     margin-top: -10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     justify-content: center;
+ }
+ 
+ .order-content1{
+     
+     font-size: 15px;
+     color: #333232;
+   
+ 
+ }
+ .order-content2{
+     margin-top: -15px;
+     font-size: 15px;
+     color: #333232;
+     
+ }
+ 
+ .order-content3{
+     margin-top: -15px;
+     font-size: 15px;
+     color: #333232;
+ }
+ 
+ .order-table{
+     margin-left: 10%;
+     //width: 100%;
+     display: flex;
+     margin-top: 10px;
+     padding-top: 0%;
+ }
+ 
+      
+        .rtable{ 
+            border-collapse:collapse;
+           width: 70%;
+           border: 1px solid lightgray;
+           
+         }
+         
+         .th{
+           padding: 8px;
+           text-align: center;
+           border-bottom: 1px solid #DCDCDC;
+           color: #333232;
+           font-weight: normal;
+           font-style: Lato;
+           font-size: 12px;
+         }
+     
+         
+         .td{
+             
+           padding: 8px;
+           text-align: center;
+           border-right: 1px solid #DCDCDC;
+           color: #333232;
+           font-weight: normal;
+           font-style: Lato;
+           font-size: 12px;
+         }
+ 
+    
+ 
+ .shopping-button{
+     
+   margin-top: 3%;  
+   background-color: #3371B5;
+   border-radius: 3px;
+   margin-left: 43%;
+   opacity: 1;
+   width: 200px;
+   height: 35px;
+   border: none;
+   font: normal normal medium 14px/17px Lato;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   text-align: center;
+   display: inline-block;
+  
+   }
+
+   .LSButton1{
+     text-decoration: none;
+     color: white;
+   }

@@ -1,0 +1,260 @@
+.head-container{
+    height: 50vh;
+    background-color: #555;
+    width: 100%;
+}
+.cartMain{
+    margin-top: -14%;
+}
+.rectangled{
+    margin-left: 38px;
+    margin-top: -20px;
+    width: 22px;
+    height: 5px;
+    // background: #A03037 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+.order-topconatiner{
+    height: 8vh;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 70%;
+    
+    margin-left:  12%;
+    //margin-right: 25px;
+    }
+    
+    .orderUrl{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .hometitle{
+        opacity: 0.5;
+        font-size: large;
+        cursor: pointer;
+    }
+    
+    .ordertitle{
+        margin-left: 5px;
+        font-weight: 300 bold;
+        font-size: large;
+        cursor: pointer;;
+    }
+    .Card-Container{
+        // margin: 10px auto;
+        margin-bottom: 2%;
+    }
+    
+    table{
+        margin-left: 12%;
+        width: 70%;
+    }
+    .HeadingWishList{
+        background: #F5F5F5 0% 0% no-repeat padding-box;
+        border: 1px solid #E4E4E4;
+        border-bottom: 0px gray;
+        border-radius: 1px;
+        opacity: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: -2px;
+    }
+    .HeadingData{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    
+    }
+    .WishlistCount{
+        margin-left: 15px;
+       // margin-top: -0px;
+    }
+    .card-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-data{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 35px;
+    }
+    .BookName{
+        font-weight: bold;
+       // width: 500px;
+    }
+    
+    .AuthorName{
+        margin-top: -6px;
+        font-size: 12px;
+        opacity: 0.5;
+    }
+    
+    .priceBox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    
+    .PriceName{
+        font-weight: bold;
+        margin-top: -1px;
+    }
+    
+    .ActualPriceName{
+        margin-top: 4px;
+        margin-left: 15px;
+        text-decoration: line-through;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+    }
+    
+    .inner-box{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        padding: 10px 5px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #E4E4E4;
+        border-bottom-style: inset;
+        border-bottom-color:rgb(236, 231, 231);
+        opacity: 1;
+        
+    }
+    td img{
+        margin-left: 15px;
+        margin-top: 15px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .card-order{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .order-details{
+        width:60px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -125px;
+        margin-left: 800px;
+    }
+    .increment-decrement {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        //padding-bottom: 10%;
+        margin-left: 11%;
+        margin-top: -2%;
+        opacity: 0.4;
+    }
+    
+    .minus-plus {
+        border-radius: 15px;
+        background-color: white;
+        outline: none;
+        border: none;
+        display: flex;
+    }
+    
+    .number {
+        font-size: 15px;
+        height: 25px;
+        width: 40px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid gainsboro;
+    }
+    
+    .remove {
+        height: 29px;
+        // margin-left: 30px;
+        outline: none;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+        color: "rgb(145, 10, 10)";
+        font-size: 15px;
+        
+    }
+    
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }        
+
+    .secondbox{
+        // height: 60vh;
+    margin-left: 12%;
+    width: 69.75%;
+    border: 1px solid #E4E4E4;
+    margin-bottom: 2%;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    }
+
+    .AddressMainCart{
+        padding-top: 1%;
+        width: 100%;
+        // width: 80%;
+        background-color: white;
+    }
+    .ImageCart{
+        height: 130px;
+        margin-top: 2px;
+    }
+    .place-order-button{
+        margin-left: 70%;
+        width: 30%;
+        margin-top: -45px;
+    }
+    
+    
+    
+
+    // .thirdbox{
+    //     border: 1px solid gray;
+    // }
+    @media screen and (max-width:1110px) and (min-width:600px) {
+        .place-order-button {
+            margin-left: 650px;
+            width: 50%;
+        }
+        .cartMain {
+           padding-top: 200px;
+        }
+    }
+    @media screen and (max-width:450px) and (min-width:200px) {
+        .place-order-button {
+            margin-left: 220px;
+            width: 50%;
+
+        }
+        .cartMain {
+            margin-left: 140px;
+            padding-top: 200px;
+        }
+    }
+    @media screen and (max-width:960px) and (min-width:200px) {
+        .place-order-button {
+            margin-left: 220px;
+            width: 50%;
+
+        }
+        .cartMain {
+            margin-left: 140px;
+        }
+    }
